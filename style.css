@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(247, 241, 229);
+}
+
+h1 {
+	font-size: 62px;
+	text-align: center;
+	margin-top: 20px;
+    font-family: 'Abril Fatface'
+   
+
+}
+
+div.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+
+.dish {
+	height: 300px;
+	width: 300px;
+	margin: 40px;
+}
+
+.chinese {
+	background-color: rgb(184, 98, 27);
+}
+.wietnamese {
+	background-color: rgb(231, 177, 10);
+}
+.polish {
+	background-color: rgb(76, 75, 22);
+}
+.italian {
+	background-color: rgb(242, 227, 219);
+}
+
+.nepalese {
+	background-color: rgb(65, 100, 74);
+}
+.bulgarian {
+	background-color: rgb(232, 106, 51);
+}
+.georgian {
+	background-color: rgb(168, 68, 72);
+}
+.hawaiian {
+	background-color: rgb(122, 62, 101);
+}
+
+.japanese {
+	background-color: rgb(198, 151, 73);
+}
+
+span {
+	font-size: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40%;
+}
+
+.label {
+font-family: 'Abril Fatface', cursive;
+
+}
+
+
+.hidename {
+    display: none;
+}
+
+
+
+p.afterclick {
+    font-size: 40px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40%;
+
+}
