@@ -1,11 +1,11 @@
 const Polska = ['pierogi','kasza','kluski','gołąbki','kotlet schabowy'];
-const Nepal = ['Dhal', 'warzywa w sosie curry', 'lassi'];
-const Gruzja = ['Chaczapuri', 'Chinkali', 'Satsivi', 'Lobio'];
-const Hawaje = ['Hawaiian Plate', 'Saimin', 'Taro Ko Farm Chips', 'Poke'];
-const Japonia = ['Sushi', 'okonomiyaki', 'tayaki'];
-const Chiny = ['Sweet and sour pork','hot pot','dim sum','Peking Roasted Duck'];
-const Wietnam = ['Cao lau', 'pho', 'goi cuon', 'cha ca'];
-const Bulgaria = ['banitsa', 'kebapche', 'shopska salata '];
+const Nepal = ['dhal','warzywa w sosie curry', 'lassi','thukpa','momos'];
+const Gruzja = ['chaczapuri', 'chinkali','satsivi','lobio'];
+const Hawaje = ['Hawaiian plate','saimin','poke','kalua','lao lao'];
+const Japonia = ['Sushi', 'okonomiyaki', 'tayaki','ramen','tempura','unagi'];
+const Chiny = ['Sweet and sour pork','hot pot','dim sum','peking roasted duck'];
+const Wietnam = ['cao lau','pho','goi cuon','cha ca','banh cuon','banh mi'];
+const Bulgaria = ['banitsa', 'kebapche','shopska salata','tarator','sarmi'];
 
 const daniePolska = document.querySelector('.polish-dish');
 const polskaButton = document.querySelector('div.polish');
