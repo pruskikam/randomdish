@@ -1,18 +1,16 @@
 const Polska = ['pierogi','kasza','kluski','gołąbki','kotlet schabowy'];
-const Nepal = ['dhal','warzywa w sosie curry', 'lassi','thukpa','momos'];
+const Nepal = ['dhal','lassi','thukpa','momos'];
 const Gruzja = ['chaczapuri', 'chinkali','satsivi','lobio'];
 const Hawaje = ['Hawaiian plate','saimin','poke','kalua','lao lao'];
-const Japonia = ['Sushi', 'okonomiyaki', 'tayaki','ramen','tempura','unagi'];
-const Chiny = ['Sweet and sour pork','hot pot','dim sum','peking roasted duck'];
+const Japonia = ['sushi', 'okonomiyaki', 'tayaki','ramen','tempura','unagi'];
+const Chiny = ['sweet and sour pork','hot pot','dim sum','peking roasted duck'];
 const Wietnam = ['cao lau','pho','goi cuon','cha ca','banh cuon','banh mi'];
-const Bulgaria = ['banitsa', 'kebapche','shopska salata','tarator','sarmi'];
+const Bulgaria = ['banitsa','kebapche','shopska salata','tarator','sarmi'];
 
 const daniePolska = document.querySelector('.polish-dish');
 const polskaButton = document.querySelector('div.polish');
 const spanPolska = document.querySelector('span.polish');
 const paragrafPolska = document.querySelector('p.polish-dish')
-
-console.log(paragrafPolska);
 
 const danieWietnam = document.querySelector('.wietnamese-dish');
 const wietnamButton = document.querySelector('div.wietnamese');
@@ -50,12 +48,6 @@ const gruzjaButton = document.querySelector('div.georgian');
 const spanGeorgian = document.querySelector('span.georgian');
 const paragrafGruzja = document.querySelector('p.georgian-dish')
 
-
-
-// const funkcjadaniowaChiny = () => {
-// 	danieChiny.textContent = Chiny[0];
-// 	spanChinese.classList.add('hidename');
-// };
 
 
 
